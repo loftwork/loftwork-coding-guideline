@@ -2,7 +2,7 @@
 
 HTML・CSS・JavaScript はそれぞれ「構造」「表現」「ロジック」を担う役割分担を守ります（[4-2-1. 構成要素の分離](/04-html/4-2-semantics#4-2-1-構成要素の分離) 参照）。JavaScriptでDOMを操作する際も、この原則を維持した実装にします。
 
-## 4-6-1. style属性の直接書き換えを避ける
+## 4-6-1. style属性の直接書き換えを避ける <Badge type="danger" text="必須" />
 
 JavaScriptから `element.style.xxx` を直接操作することは原則禁止します。
 
@@ -60,7 +60,7 @@ el.classList.toggle('is-open');
 }
 ```
 
-## 4-6-2. 動的な値にはCSSカスタムプロパティを経由する
+## 4-6-2. 動的な値にはCSSカスタムプロパティを経由する <Badge type="info" text="任意" />
 
 スクロール量・要素の幅・マウス座標など、JavaScriptで取得した**数値**をスタイルに反映させる場合は、`style.setProperty()` でCSSカスタムプロパティに渡します。
 
@@ -83,7 +83,7 @@ window.addEventListener('scroll', onScroll, { passive: true });
 }
 ```
 
-## 4-6-3. イベントリスナーのパフォーマンス
+## 4-6-3. イベントリスナーのパフォーマンス <Badge type="info" text="任意" />
 
 スクロール・リサイズ・タッチムーブなど高頻度で発火するイベントには、以下の対策を取り入れます。
 

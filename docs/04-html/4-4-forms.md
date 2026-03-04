@@ -1,6 +1,6 @@
-# 4-4. フォーム <Badge type="danger" text="必須" />
+# 4-4. フォーム
 
-## 4-4-1. ラベルの関連付け
+## 4-4-1. ラベルの関連付け <Badge type="danger" text="必須" />
 
 フォームには `label` 要素を用いてテキストのラベルとフォームコントロールを関連付けます。
 
@@ -9,7 +9,7 @@
 <input type="text" id="name" name="name">
 ```
 
-## 4-4-2. グループ化
+## 4-4-2. グループ化 <Badge type="danger" text="必須" />
 
 ラジオボタン・チェックボックスなどグループを形成するコントロールは、`fieldset` 要素と `legend` 要素でグループ化します。
 
@@ -23,6 +23,6 @@
 </fieldset>
 ```
 
-## 4-4-3. select要素のグループ化
+## 4-4-3. select要素のグループ化 <Badge type="danger" text="必須" />
 
 `select` 要素内のoption要素が複数の分類を包含する場合、`optgroup` 要素を用いてグループ化します。
