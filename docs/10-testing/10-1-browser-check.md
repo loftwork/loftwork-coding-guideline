@@ -30,6 +30,8 @@
 
 実機またはクラウドサービス（BrowserStack 等）を補助として使用します。
 
+🔗 [BrowserStack](https://www.browserstack.com/)
+
 ## 10-1-3. チェック観点
 
 確認時は以下の観点を基準にします。

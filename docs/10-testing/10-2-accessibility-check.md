@@ -2,8 +2,6 @@
 
 本ガイドラインでは WCAG 2.2 レベルA の達成を最低基準としています（[7章 アクセシビリティ](/07-accessibility/7-1-alt) 参照）。コーディング段階からアクセシビリティの問題を発見・修正するために、以下のチェックを実施します。
 
-**凡例：** <Badge type="danger" text="必須" /> / <Badge type="warning" text="推奨" /> / <Badge type="info" text="任意" />
-
 ## 10-2-1. axe DevTools による自動チェック <Badge type="danger" text="必須" />
 
 **axe DevTools** はアクセシビリティの問題を自動検出するブラウザ拡張機能です。納品前の最終確認だけでなく、**ローカル開発（localhost）の段階から**継続的に使用し、問題を早期に発見します。
@@ -58,7 +56,7 @@
 - フォームのラベルとコントロールが関連付けられている
 - エラーメッセージが読み上げられる
 
-## 10-2-4. HTMLバリデーション <Badge type="warning" text="推奨" />
+## 10-2-4. HTMLバリデーション <Badge type="danger" text="必須" />
 
 [4-1. HTMLの記述スタイル](/04-html/4-1-extension) に記載の通り、Nu Html Checker でバリデーションを実施します。マークアップのエラーはアクセシビリティツールの誤動作につながる場合があります。
 

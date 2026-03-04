@@ -1,4 +1,4 @@
-# 5-2. 命名規則 <Badge type="danger" text="必須" />
+# 5-2. 命名規則 <Badge type="warning" text="推奨" />
 
 IDとクラス名には、見た目ではなく要素の目的や役割を表す意味のある名前を使用します。
 

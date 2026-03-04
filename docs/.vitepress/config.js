@@ -2,17 +2,18 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   base: '/loftwork-coding-guideline/',
-  title: 'LW コーディングガイドライン',
+  title: 'Loftwork Coding Guideline',
   description: 'ロフトワーク Webサイト制作コーディングガイドライン',
   lang: 'ja',
 
   themeConfig: {
     logo: null,
-    siteTitle: 'LW コーディングガイドライン',
+    siteTitle: 'Loftwork Coding Guideline',
 
     nav: [
       { text: 'はじめに', link: '/intro' },
       { text: 'アクセシビリティ', link: '/07-accessibility/7-1-alt' },
+      { text: '検証とテスト', link: '/10-testing/10-1-browser-check' },
     ],
 
     sidebar: [

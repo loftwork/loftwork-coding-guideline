@@ -2,16 +2,13 @@
 layout: home
 
 hero:
-  name: "LW コーディングガイドライン"
-  text: "Webサイト制作（静的HTML・CMS構築）"
-  tagline: ロフトワークが関わるWebサイト制作プロジェクトにおける、HTMLおよびCSSコーディングの基本ルール
+  name: "Loftwork Coding Guideline"
+  text: "静的HTML・CMS構築"
+  tagline: ロフトワークのWebサイト制作プロジェクトにおけるコーディングの基本ルール
   actions:
     - theme: brand
-      text: はじめに読む
+      text: はじめに
       link: /intro
-    - theme: alt
-      text: 1. 開発環境
-      link: /01-environment/1-1-version-control
 
 features:
   - title: 1. 開発環境

@@ -1,4 +1,4 @@
-# 8-6. WYSIWYGエリアへの対応 <Badge type="info" text="任意" />
+# 8-6. WYSIWYGエリアへの対応 <Badge type="danger" text="必須" />
 
 WYSIWYGエディタや複数行テキスト（HTML入力可）のパーツについては、CMS組み込み時に各種タグが挿入されるため、エリア全体を `div` タグで囲みます。
 
