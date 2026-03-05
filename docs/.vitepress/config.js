@@ -5,6 +5,7 @@ export default defineConfig({
   title: 'Loftwork Coding Guideline',
   description: 'ロフトワーク Webサイト制作コーディングガイドライン',
   lang: 'ja',
+  appearance: 'light',
 
   themeConfig: {
     logo: null,
