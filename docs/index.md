@@ -9,6 +9,9 @@ hero:
     - theme: brand
       text: はじめに
       link: /intro
+    - theme: alt
+      text: 開発パートナーの方へ
+      link: /01-environment/1-1-version-control
 
 features:
   - title: 1. 開発環境
