@@ -21,6 +21,7 @@ export default defineConfig({
       { text: 'はじめに', link: '/intro' },
       {
         text: '1. 開発環境',
+        link: '/01-environment/',
         items: [
           { text: '1-1. バージョン管理', link: '/01-environment/1-1-version-control' },
           { text: '1-2. ローカル開発環境', link: '/01-environment/1-2-local-env' },
@@ -29,6 +30,7 @@ export default defineConfig({
       },
       {
         text: '2. 対応ブラウザ・デバイス',
+        link: '/02-browsers/',
         items: [
           { text: '2-1. 必須確認ブラウザ', link: '/02-browsers/2-1-required' },
           { text: '2-2. 推奨確認ブラウザ', link: '/02-browsers/2-2-recommended' },
@@ -38,6 +40,7 @@ export default defineConfig({
       },
       {
         text: '3. 共通ルール',
+        link: '/03-common/',
         items: [
           { text: '3-1. ファイル名・ディレクトリ名', link: '/03-common/3-1-filenames' },
           { text: '3-2. 命名規則', link: '/03-common/3-2-naming' },
@@ -48,6 +51,7 @@ export default defineConfig({
       },
       {
         text: '4. HTML',
+        link: '/04-html/',
         items: [
           { text: '4-1. 拡張子', link: '/04-html/4-1-extension' },
           { text: '4-2. セマンティクスと構造', link: '/04-html/4-2-semantics' },
@@ -59,6 +63,7 @@ export default defineConfig({
       },
       {
         text: '5. CSS',
+        link: '/05-css/',
         items: [
           { text: '5-1. ファイル構成', link: '/05-css/5-1-file-structure' },
           { text: '5-2. 命名規則', link: '/05-css/5-2-naming' },
@@ -69,6 +74,7 @@ export default defineConfig({
       },
       {
         text: '6. モバイル・レスポンシブ対応',
+        link: '/06-mobile/',
         items: [
           { text: '6-1. ブレークポイント', link: '/06-mobile/6-1-breakpoints' },
           { text: '6-2. メディアクエリの単位', link: '/06-mobile/6-2-media-queries' },
@@ -78,6 +84,7 @@ export default defineConfig({
       },
       {
         text: '7. アクセシビリティ',
+        link: '/07-accessibility/',
         items: [
           { text: '7-1. テキストの代替', link: '/07-accessibility/7-1-alt' },
           { text: '7-2. 構造と見出し', link: '/07-accessibility/7-2-structure' },
@@ -92,6 +99,7 @@ export default defineConfig({
       },
       {
         text: '8. CMS・テンプレートコーディング',
+        link: '/08-cms/',
         items: [
           { text: '8-1. リソースパス構成', link: '/08-cms/8-1-resource-path' },
           { text: '8-2. 繰り返しへの対応', link: '/08-cms/8-2-repeat' },
@@ -103,6 +111,7 @@ export default defineConfig({
       },
       {
         text: '9. 外部ライブラリの選定基準',
+        link: '/09-libraries/',
         items: [
           { text: '9-1. メンテナンスの継続性', link: '/09-libraries/9-1-maintenance' },
           { text: '9-2. WCAG/アクセシビリティ対応', link: '/09-libraries/9-2-accessibility' },
@@ -111,6 +120,7 @@ export default defineConfig({
       },
       {
         text: '10. 検証とテスト',
+        link: '/10-testing/',
         items: [
           { text: '10-1. ブラウザ・デバイス検証', link: '/10-testing/10-1-browser-check' },
           { text: '10-2. アクセシビリティ検証', link: '/10-testing/10-2-accessibility-check' },
