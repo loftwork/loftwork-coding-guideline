@@ -41,4 +41,7 @@ features:
   - title: 9. 外部ライブラリ選定
     details: メンテナンス・アクセシビリティ・ライセンス
     link: /09-libraries/9-1-maintenance
+  - title: 10. 検証とテスト
+    details: 制作物の検証と納品最低条件
+    link: /10-testing/10-1-browser-check
 ---
