@@ -29,6 +29,8 @@ npm run docs:dev
 npm run docs:build
 ```
 
+> 補足: GitHub Actions（GitHub Pagesデプロイ）を設定済みのため、`main` への push 時はCI側でビルドされます。デプロイ目的であればローカルでの `npm run docs:build` は必須ではありません。
+
 ### ビルド成果物のプレビュー
 ```bash
 npm run docs:preview
